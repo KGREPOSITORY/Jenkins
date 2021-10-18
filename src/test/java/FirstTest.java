@@ -12,4 +12,13 @@ public class FirstTest {
     public void secondTest(){
         Assert.assertEquals(System.getProperty("testsResults"), "passed");
     }
+
+    @Test
+    public void thirdTest(){
+        Assert.assertEquals(System.getProperty("testsResults"), "passed");
+    }
+    @Test
+    public void forthTest(){
+        Assert.assertEquals(System.getProperty("testsResults"), "passed");
+    }
 }
