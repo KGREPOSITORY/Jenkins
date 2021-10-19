@@ -21,4 +21,10 @@ public class FirstTest {
     public void forthTest(){
         Assert.assertEquals(System.getProperty("testsResults"), "passed");
     }
+
+    @Test
+    public void fivethTest() {
+        Assert.assertEquals(System.getProperty("testsResults"), "passed");
+    }
 }
+
