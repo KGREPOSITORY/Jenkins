@@ -1,8 +1,8 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FirstTest {
 
+public class FirstTest {
     @Test
     public void firstTest(){
         Assert.assertEquals(System.getProperty("testsResults"), "passed");
@@ -27,4 +27,3 @@ public class FirstTest {
         Assert.assertEquals(System.getProperty("testsResults"), "passed");
     }
 }
-
