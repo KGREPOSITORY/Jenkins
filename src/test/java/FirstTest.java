@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 public class FirstTest {
 
-
     @Test
     public void firstTest(){
         Assert.assertEquals(System.getProperty("testsResults"), "passed");
